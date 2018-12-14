@@ -5,7 +5,7 @@ The United States Census Bureau (USCB) estimates the number of people in each co
 
 The **diversity index**  _D_ for a population is the probability that two random people from a given population will be of different races. The diversity index is calculated with the following formula, where _N_<sub>I</sub> is the number of individuals in racial category _i_ and _T_ is the total number of individuals:
 
-$D = \frac{1}{T^2}\sum_{i=1}^{6}N_i(T - N_i)$
+![Diversity Index Formula](https://raw.githubusercontent.com/tushariyer/map-reduce/master/img/Formula.png)
 
 This project works with the census dataset sourced [here](https://www.census.gov/data/tables/2017/demo/popest/counties-detail.html).
 
@@ -44,3 +44,9 @@ The program will print output such that the states are in alphabetical order, bu
 ## Screenshots
 
 Below are three screenshots of the program running with different sets of parameters:
+
+![Screenshot One](https://raw.githubusercontent.com/tushariyer/map-reduce/master/img/Img1.png)
+
+![Screenshot Two](https://raw.githubusercontent.com/tushariyer/map-reduce/master/img/Img2.png)
+
+![Screenshot Three](https://raw.githubusercontent.com/tushariyer/map-reduce/master/img/Img3.png)
